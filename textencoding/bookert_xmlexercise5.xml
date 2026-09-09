@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
-    <header>"Ballad of Booker T.," by Langston Hughes, June 1, 1941
+    <header>"Ballad of Booker T.," by Langston Hughes, <fact note="Hughes would be 40 at this time.">June 1, 1941</fact>
 BALLAD OF BOOKER T.
 by
 Langston Hughes</header>
 <!--Hughes was an important figure in African American culture, and he wrote this poem to attempt and rehabilitate Booker T. Washington's image.-->
-Booker T.
+<interpretation num="1" note="Booker T. earnestly believed that hard work (plus more as we see later) would support the cause of African Americans.">Booker T.
 Was a practical <rhyme num="1">man.</rhyme>
 He said, Till the soil
-And learn from the <rhyme num="1">land.</rhyme>
-Let down your bucket
+And learn from the <rhyme num="1">land.</rhyme></interpretation>
+<interpretation num="1" note="The 'fate' of African-Americans can be found where they currently live, not far away in another country or even state.">Let down your bucket
 Where you <rhyme num="2">are.</rhyme>
 Your fate is here
-And not <rhyme num="2">afar.</rhyme>
-To help yourself
+And not <rhyme num="2">afar.</rhyme></interpretation>
+<interpretation num="3" note="A community must be educated, kind, and hard-working for any true change to emerge. Nobody can push for change without someone to help them eat.">To help yourself
 And your fellow <rhyme num="3">man,</rhyme>
 Train your head,
 Your heart, and your <rhyme num="3">hand.</rhyme>
 For smartness alone's
 Surely not <rhyme num="4">meet—</rhyme>
 If you haven't at the same time
-Got something to <rhyme num="4">eat.</rhyme>
-Thus at <city state="Alabama">Tuskegee</city>
+Got something to <rhyme num="4">eat.</rhyme></interpretation>
+<interpretation num="4" note="Booker T. created a university that taught both book and hands-on skills, something that couldn't have been done before harnessing community.">Thus at <city state="Alabama">Tuskegee</city>
 <!--Booker T. created Tuskegee Institute, a primarily black college in Alabama.-->
 He built a <rhyme num="5">school</rhyme>
 With book-learning there
@@ -29,31 +29,31 @@ And the workman's <rhyme num="5">tool.</rhyme>
 He started out
 In a simple <rhyme num="6">way—</rhyme>
 For yesterday
-Was not <rhyme num="6">today.</rhyme>
-Sometimes he had
+Was not <rhyme num="6">today.</rhyme></interpretation>
+<interpretation num="5" note="While some compromises had to be made, for the time and place, Booker T. did the best he could.">Sometimes he had
 Compromise in his <rhyme num="7">talk—</rhyme>
 For a man must crawl
 Before he can <rhyme num="7">walk—</rhyme>
 And in <state country="USA">Alabama</state> in <rhyme num="8">'85</rhyme>
 A joker was lucky
-To be <rhyme num="8">alive.</rhyme>
-But Booker T.
+To be <rhyme num="8">alive.</rhyme></interpretation>
+<interpretation num="6" note="While the spectre of racism loomed over him, Booket T. did help in creating the dream of full equality in his time.">But Booker T.
 Was nobody's <rhyme num="9">fool:</rhyme>
 You may carve a dream
 With an humble <rhyme num="9">tool.</rhyme>
 The tallest tower
 Can tumble <rhyme num="10">down</rhyme>
 If it be not rooted
-In solid <rhyme num="10">ground.</rhyme>
+In solid <rhyme num="10">ground.</rhyme></interpretation>
 <!--Part of Booker T's unpopularity was due to him pursuing more academic affairs with his clout and wealth instead of focusing on enfranchising fellow African Americans. Hughes implies that Booker simply wanted to ensure everyone could be properly educated first.-->
-So, being a far-seeing
+<interpretation num="7" note="Again, Booker T. wanted to encourage community skills and learning in his time, believing in a more prosperous, equal future.">So, being a far-seeing
 Practical <rhyme num="11">man,</rhyme>
 He said, Train your head,
 Your heart, and your <rhyme num="11">hand.</rhyme>
 Your fate is here
 And not <rhyme num="12">afar,</rhyme>
 So let down your bucket
-Where you <rhyme num="12">are.</rhyme>
+Where you <rhyme num="12">are.</rhyme></interpretation>
 <footer>LANGSTON HUGHES
 Final Draft,
 Hollow Hills Farm,
