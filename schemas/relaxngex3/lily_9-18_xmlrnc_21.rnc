@@ -1,0 +1,24 @@
+start = root
+root = element root {mixed{background, original, recipe, results}}
+background = element background {mixed{(city*, time*, person*, book*)*}}
+city = element city {mixed{attribute country {text}}}
+time = element time {(attribute span {text})?, text}
+person = element person {(attribute full {text})?, text}
+book = element book {text}
+original = element original {line+}
+line = element line {num, mixed{(ampersand? | oldspell* | tool? | measurement? | temp? | timing?)*}}
+num = attribute num {xsd:int}
+ampersand = element ampersand {num, text}
+oldspell = element oldspell {(attribute modern {text}), text}
+recipe = element recipe {mixed{ingredients, line+}}
+tool = element tool {(attribute type {text}), text}
+ingredients = element ingredients {mixed{measurement+}}
+measurement = element measurement {mixed{(attribute technicallytrue {"true"})?, inedible?}}
+inedible = element inedible {attribute note {text}, text}
+temp = element temp {text}
+timing = element timing {text}
+results = element results {mixed{header, advice+}}
+header = element header {text}
+advice = element advice {text}
+# unsure if there's a better way to assign many elements that are all ultimately just text
+# if made with a schema in mind, wouldn't have so many "joke" elements tho

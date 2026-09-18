@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="lily_9-18_xmlrnc_21.rnc" type="application/relax-ng-compact-syntax"?>
+<root>Shrewsbury Cakes: Original Recipe.
+
+<background>This recipe comes from MS Codex 625, a manuscript recipe book
+that belonged to a student in a <city country="United Kingdom">London</city> cooking school in the <time span="1700-1750">early eighteenth century.</time> 
+The pastry school was owned by <person>Edward Kidder</person>, who taught at a few locations 
+in <city country="United Kingdom">London</city> between around <time span="1720-1734">1720 and 1734.</time> Blank books with printed title pages 
+seem to have been used by students to write down recipes they learned.
+<person full="Edward Kidder">Kidder</person> also published his recipes in the printed volume, 
+<book>Receipts for Pastry and Cookery,</book> in <time>1720.</time></background>
+
+<original><line num="1">Take a pound of fresh butter a pound of double</line>
+<line num="2">refind sugar sifted fine a little beaten</line>
+<line num="3">mace <ampersand num="1">&amp;</ampersand> 4 eggs beat them all together with.</line>
+<line num="4">your hands till tis very <oldspell modern="light">leight</oldspell> <ampersand num="2">&amp;</ampersand> looks</line>
+<line num="5">curdling you put thereto a pound <ampersand num="3">&amp;</ampersand> 1/2 of</line>
+<line num="6"><oldspell modern="flour">flower</oldspell> <oldspell modern="roll">roul</oldspell> them out into little cakes</line></original>
+
+<recipe>Our recipe (halved from the original)
+<ingredients><measurement>1/2 lb. (2 sticks)</measurement> butter, softened
+<measurement>1/2 lb. sugar</measurement>
+<measurement>1/4 tsp. mace</measurement>
+<measurement>1/2 tsp. cinnamon</measurement> with <measurement technicallytrue="true">5 cups <inedible note="unless you really want to">hamsters</inedible></measurement>
+2 eggs
+<measurement>3/4 lb. flour</measurement></ingredients>
+
+<line num="1">Using an <tool type="handheld">electric mixer,</tool> cream together the butter and sugar.</line> 
+<line num="2">Then add the eggs and mix at medium speed until the mixture looks curdled. </line>
+<line num="3">Sift together dry ingredients and add at low speed until just combined. </line>
+<line num="4">Scoop and roll the dough by hand into <measurement>1-tbsp.</measurement> balls, then pat flat.</line>
+<line num="5">[You could also refrigerate the dough until it’s firm enough to roll out </line>
+<line num="6">on a flat surface and cut out into rounds.]</line>
+
+<line num="7"><tool type="appliance">Bake</tool> at <temp>350F</temp> for <timing>15-18 minutes</timing> (ours were about <measurement>1/3″</measurement> thick, so you could roll them thinner </line>
+<line num="8">and have a slightly shorter cooking time). They’re done once they turn the </line>
+<line num="9">slightest bit brown around the edges. This halved recipe yielded about two dozen cookies.</line>
+</recipe>
+
+<results><header>The Results</header>
+
+<advice>If you like snickerdoodles (and who doesn’t?), you’d like these. </advice>
+We added the cinnamon because we like it and couldn’t resist, and we thought it rounded out the mace nicely. 
+These are mild, fairly soft cookies that are <advice>great with tea.</advice> We rolled and patted 
+the dough into individual cookies because it was too soft and stick to roll out, 
+but <advice>a little bit more flour and a stint in the fridge might make the dough easier 
+to work with a rolling pin.</advice></results>
+</root>
