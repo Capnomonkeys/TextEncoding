@@ -1,0 +1,13 @@
+start = root
+root = element root {game+}
+game = element game {release, log+}
+release = element release {(jpn?, na?, pal?, int?), text}
+log = element log {num, appearances, mixed{stats?, tips?}}
+stats = element stats {text}
+tips = element tips {text}
+appearances = attribute appearances {("1" | "2, 3, 4" | "3, 4" | "3" | "4")}
+jpn = attribute jpn {xsd:date}
+na = attribute na {xsd:date}
+pal = attribute pal {xsd:date}
+int = attribute int {xsd:date}
+num = attribute num {xsd:int}

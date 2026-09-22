@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="9-22_bulborbxml.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <game><release jpn="2001-10-26" na="2001-12-03" pal="2002-06-14">Pikmin</release>
+    
+    <log num="1" appearances = "1">Olimar's voyage log
+    “The most plentiful species on the planet, they are quite ferocious despite 
+    their appearance, using their massive jaws to swallow Pikmin whole. 
+    <tips>Frontal assaults result in disaster; attacks from behind are more successful. 
+    Attacking their legs is also effective.</tips>”</log>
+    
+    <log num="2" appearances = "1">Enemy reel notes
+    “This <tips>nocturnal</tips> hunter feeds mostly on small animals returning
+    to their nests at night.”</log>
+    </game>
+    
+    <game><release jpn="2004-04-29" na="2004-08-30" pal="2004-10-08">Pikmin 2</release>
+    
+    <log num="1" appearances="2, 3, 4">Olimar's notes
+    “Red Bulborb
+    Oculus kageyamii russus
+    Grub-dog family
+    This large organism has the familiar mandibles and cranial morphology
+    of the grub-dog family, as well as the characteristic bulging eyes.
+    As with most grub-dogs, the creature's cranium comprises half of its
+    total length and girth. Showing a scarlet abdomen with white spots,
+    this creature is <tips>primarily nocturnal, choosing to prey upon smaller
+    creatures returning to their nests.</tips> Originally classified as the spotty
+    bulborb, further research has reclassified this species as the red bulborb.
+    Subspecies of varied colors have recently been discovered, but academics are
+    divided into two rival camps over how to handle their classification.”</log>
+    
+    <log num = "2" appearances = "2, 3, 4">Louie's notes
+    “Plump specimens are best spit-roasted whole, stuffed with a lime
+    and a slab of bacon. Baste frequently to ensure a magnificently moist haunch.”</log>
+    </game>
+    
+    <game><release jpn="2013-07-13" na="2013-08-04" pal="2013-07-26">Pikmin 3</release>
+    
+    <log num="1" appearances="3">Alph's comments - American English
+    “Structural flaws: eyestalks, back
+    <stats>Weight: 10</stats>
+    Only a very confident designer would waive through issues like
+    bright-red warning coloration and a tendency to sleep in broad daylight.
+    There's no way a frontal assault on this thing will work, so we have to
+    get creative. <tips>I'm thinking we should hit its back hard while it sleeps,
+    or maybe target those thin-looking eyestalks.</tips>”</log>
+    
+    <log num="2" appearances="3">Brittany's comments - English
+    “The white polka dots on red is quite a look. Something about
+    it is familiar, but where— Ah. Right. It reminds me of the captain.
+    Not the polka dots—I mean the way it snores as it naps in the sun.”</log>
+    
+    <log num="3" appearances="3">Charlie's comments - English
+    “This red bruiser gobbles up Pikmin like candy. <tips>The standard approach
+    is to attack from behind while it's still asleep.</tips> That may seem callous,
+    but it would do the same to you if it could. Stow those feelings and strike!”</log>
+    </game>
+    <game><release int="2023-07-21">Pikmin 4</release>
+    
+    <log num="1" appearances="4">Dalmo's notes
+    “It has wide, googly eyes on protruding stalks, a mouth meant to
+    swallow prey in one large gulp, and powerful, red and white
+    polka-dotted hindquarters. It's fierce, and yet it's somehow
+    quite endearing. Be wary of getting lured in by its disarming mien!”</log>
+    </game>
+</root>
