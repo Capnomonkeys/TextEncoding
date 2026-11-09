@@ -1,0 +1,4 @@
+span.good {color: green; font-weight: bold;}
+span.neutral {color: orange; font-weight: bold;}
+span.evil {color: red; font-weight: bold;}
+span.blades {font-weight: bold; text-shadow: 2px 2px 10px;}

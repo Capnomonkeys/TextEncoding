@@ -1,0 +1,12 @@
+1. //body/div[@type="panelGrp"]
+2. //body/div[@type="panelGrp"]/cbml:panel
+3. //body/div[@type="panelGrp"][2]/cbml:panel
+    returns 3 results
+4. count(//@characters)
+    returns 1 result
+5. //body/div[@type="panelGrp"]/cbml:panel[@characters="narrator"]
+    Could be helpful in narrowing down specific character appearances, for instance.
+6. ~41 based on ctrl-f.
+    Much of it seems to be for labels or banners diagetically in the story.
+    //body/div[@type="panelGrp"]/cbml:panel/floatingText
+    count(//floatingText)
