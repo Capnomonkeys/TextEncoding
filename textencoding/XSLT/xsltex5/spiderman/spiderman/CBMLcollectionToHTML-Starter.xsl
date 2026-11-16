@@ -83,9 +83,9 @@
                 </section>
 
                 <section id="readingView">
-                    
-                    <xsl:apply-templates select="$comicColl//div[@type='page']"/>
-                       
+                    <xsl:apply-templates select="$comicColl//div[@type='page']">
+                        <xsl:sort select="number(@n)" data-type="number"/>
+                    </xsl:apply-templates>
                 </section>
             </body>
         </html>
@@ -97,11 +97,9 @@
    
    <xsl:template match="div" mode="toc">
         <tr>
-            <td><xsl:text>Page </xsl:text><xsl:apply-templates select="@n"/></td><!--first column data cell: to hold the page number. -->
+            <td><a href="#page-{@n}"><xsl:text>Page </xsl:text><xsl:apply-templates select="@n"/></a></td><!--first column data cell: to hold the page number. -->
             <td>
-                <xsl:for-each-group select="$comicColl//div[@type='page']" group-by="data(@n)">
-                    <xsl:value-of select="$comicColl//cbml:balloon[@who]"/>
-                </xsl:for-each-group>
+                <xsl:value-of select="sort(distinct-values(descendant::cbml:balloon/@who/normalize-space()[. ne '']))"/>
             </td><!--second column data cell: to hold a sorted, string-joined list of persons mentioned. -->
         </tr>
    </xsl:template>
@@ -122,5 +120,10 @@
         </div>
     </xsl:template>
    
-
+    <xsl:template match="div[@type='page']">
+        <section class="pageBlock" id="page-{@n}">
+            <xsl:apply-templates/>
+        </section>
+    </xsl:template>
+    
 </xsl:stylesheet>
