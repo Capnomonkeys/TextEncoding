@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+    <g alignment-baseline="baseline">
+        <line x1="30" y1="0" x2="30" y2="404" style="stroke:blue;stroke-width:20"/>
+        <text x="10" y="424" font-size="20" fill="blue">Tahiti</text>
+        
+        <line x1="100" y1="404" x2="100" y2="339" style="stroke:red;stroke-width:20"/>
+        <text x="70" y="424" font-size="20" fill="red">Raiatea</text>
+        
+        <line x1="180" y1="404" x2="180" y2="304" style="stroke:green;stroke-width:20"/>
+        <text x="140" y="424" font-size="20" fill="green">Tongatapu</text>
+    </g>
+</svg>
